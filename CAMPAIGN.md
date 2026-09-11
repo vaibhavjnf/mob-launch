@@ -75,3 +75,8 @@ Kickstarter's official rules require working prototypes and prohibit photorealis
 - Founder review of every claim against the evidence ledger.
 
 Sources: https://help.kickstarter.com/en-us/articles/16236428-what-are-the-rules-for-hardware-and-product-design-projects and https://help.kickstarter.com/en-us/articles/16236650-who-can-use-kickstarter (verified 10 September 2026).
+
+
+## Revised campaign narrative
+
+Hand off the follow-up. The first demonstration should turn a spoken client request into a sourced draft using approved project files. Show continuous working-prototype footage, actual review and the failure/cancellation path. Independent technical consultants are the initial research segment. Do not claim demand, runtime or automatic call coverage before measurement. This revision does not open a Kickstarter campaign or authorize taking preorders.

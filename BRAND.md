@@ -58,3 +58,8 @@ No fake testimonials, counters, waitlist positions, discount clocks or logos imp
 "I’m Vaibhav, building MOB, a personal AI computer in development. [Specific reason the recipient fits.] [One concrete technical or investment question.] [Short, truthful stage statement.] [One 20-minute conversation request.]"
 
 Use the same product description in the deck, site, GitHub, RFQ and email. Personalize the recipient context, not the product's facts. End with the founder's name and a simple option to decline follow-up.
+
+
+## Sales message — September 2026 revision
+
+Campaign headline: **Hand off the follow-up.** Retain **Your world, within reach.** as the broader brand line. Lead with the intended client task and the reviewable result. The initial customer hypothesis is independent technical consultants. Describe local compute, Bluetooth and Tailscale when they explain the task or answer a buyer objection. Keep unvalidated capabilities, pricing and performance clearly labelled.
