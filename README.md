@@ -1,40 +1,34 @@
-# MOB — Hand off the follow-up.
+# MOB · Your AI. Its own computer.
 
-MOB is a voice-operated personal AI computer in development. The first workflow we plan to test turns a client request into a sourced draft ready for review: use approved project files, check current web sources, prepare the work, and review it on an iPhone.
+A personal AI computer in development. Local model, speech, memory, browser and command tools in a pocket device, controlled by voice and an iPhone app. Work with the computers and programs you approve.
 
-Our first customer hypothesis is independent technical consultants. The broader vision remains a personal AI computer with its own local model, speech, memory, browser and command runner, plus authorized access to enrolled devices.
+[Explore the interactive website](https://mob-agent-network.vabbyshabbyy.chatgpt.site) · [Launch page](https://vaibhavjnf.github.io/mob-launch/) · [Investor pitch](docs/downloads/MOB-Investor-Pitch.pdf) · [Supplier RFI](docs/downloads/MOB-Supplier-Brief.pdf)
 
-**Current stage: concept and feasibility.** No integrated hardware prototype, measured runtime, customer revenue or investor commitment is claimed. The device must show a recurring advantage in a matched comparison with a phone app.
+![MOB industrial design concept](docs/assets/cinematic/mob-orbit-hero.png)
 
-- [Explore MOB and join the research list](https://mob-agent-network.vabbyshabbyy.chatgpt.site/?utm_source=github#join)
-- [Read the revised investor pitch](docs/downloads/MOB-Investor-Pitch.pdf)
-- [Review the engineering brief](docs/downloads/MOB-Supplier-Brief.pdf)
-- [Open the launch page](https://vaibhavjnf.github.io/mob-launch/)
+## What we want MOB to do
 
-![MOB front concept](docs/assets/mob-front-hero.png)
+- Research choices using current sources and selected context.
+- Run a scoped command on an enrolled computer through a supported adapter.
+- Prepare editable work from approved files; external sending needs separate approval.
+- Explore Bluetooth call assistance after routing, duplex audio, echo control and takeover work on real devices.
 
-*Industrial design concept. Integrated hardware validation is still ahead.*
+Voice begins the task. The iPhone supplies setup, permissions and review. The intended local model and tools live on MOB. Web and remote-device work need Wi-Fi or a phone hotspot. Tailscale provides networking; it does not grant application access.
 
-## The first task
+## Status
 
-“Use the Atlas project folder. Check the vendor docs. Draft my reply.” Atlas is a fictional concept example. The intended result is an editable draft, source links and open questions. External sending requires approval.
+Concept and feasibility. Early software packages, a component shortlist and this public launch experience exist. There is no validated integrated hardware prototype, measured battery result, proven customer demand, manufacturing partnership or investor commitment.
 
-## The funding thesis
+Twelve-hour mixed use and a 112 × 72 × 26 mm enclosure are targets. Component fit, thermal behavior and the production bill of materials remain open. USB-C is primary power; magnetic mounting and wireless charging are under evaluation. No MagSafe or Qi2 certification is claimed. Retail price and shipping dates are uncommitted. Kickstarter is not live.
 
-A proposed $750k pre-seed planning envelope should establish a working local workflow, measured hardware behavior, repeated-use evidence and a costed manufacturing path. The $649 price and 45% product gross-margin target are unvalidated scenarios. Terms are unset.
+## Design and proof
 
-## Engineering and launch
+The [interactive site](https://mob-agent-network.vabbyshabbyy.chatgpt.site) uses a deferred Three.js scene with image planes, particles and orbit geometry, plus static fallback, motion pause and reduced-motion behavior. It is a product narrative, not a dimensional model or a live agent demo. The eight-frame voice sprite has real alpha transparency. Product and interior images are explicitly labelled concept art.
 
-Target enclosure: 112 × 72 × 26 mm, subject to mechanical and thermal validation. Candidate compute: Open-Q 8550CS. Battery allocation: 7 Ah at 3.7 V. Twelve hours is a mixed-use target, not a measured result. Bluetooth call handling, magnetic mounting and Qi input require validation. No MagSafe/Qi2 certification is claimed.
+The investor deck contains 18 slides, source-linked engineering assumptions and a proposed $750k pre-seed planning envelope. It presents the case to investigate, not measured results. [Engineering details](https://mob-agent-network.vabbyshabbyy.chatgpt.site/engineering) · [Roadmap](ROADMAP.md) · [Brand](BRAND.md) · [Campaign blueprint](CAMPAIGN.md).
 
-![MOB magnetic back and stowed USB-C concept](docs/assets/mob-rear-usbc.png)
+## Participate
 
-Tailscale supplies networking. Supported adapters and OS permissions determine what each enrolled device can do. iOS access remains limited to supported integrations.
+[Follow the build or discuss a partnership](https://mob-agent-network.vabbyshabbyy.chatgpt.site/#join). Updates are free; no deposit or delivery commitment. Contact Vaibhav Sharma, Kota, India: [vaibhavs362@gmail.com](mailto:vaibhavs362@gmail.com).
 
-Kickstarter is not live. A working prototype, production plan and eligible creator/entity/banking setup are required. The concept renders are for prelaunch and investor communication.
-
-[Roadmap](ROADMAP.md) · [Brand](BRAND.md) · [Campaign plan](CAMPAIGN.md) · [Engineering issues](https://github.com/vaibhavjnf/mob-launch/issues)
-
-![MOB desk concept](docs/assets/mob-desk-scene.png)
-
-A project by Vaibhav Sharma · Kota, India · vaibhavs362@gmail.com
+Updated 11 September 2026. Public graphics and PDFs are in `docs/`. This repository is the launch package; it does not contain an integrated hardware implementation.

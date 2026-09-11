@@ -1,24 +1,20 @@
-# MOB public roadmap
+# MOB development roadmap
 
-Status: concept and feasibility. Milestones below require evidence before completion. Windows start from a funded engineering project and are not shipping promises.
+This is a gated plan, not a delivery schedule. Updated 11 September 2026.
 
-| Window | Milestone | Exit evidence |
-|---|---|---|
-| Weeks 0–4 | Vendor and system feasibility | Compute quote/BSP, proposed battery drawing, mechanical allocation, 12 discovery interviews |
-| Weeks 5–12 | Bench prototype | Offline voice/model/action loop; real Bluetooth duplex call; power/thermal/latency logs |
-| Weeks 13–24 | Engineering validation | 10–25 planning units, carrier bring-up, RF/audio/thermal testing, fixture and traceability |
-| Weeks 25–32 | Pilot / campaign readiness | Proposed 20-user 30-day pilot, costed BOM, real footage, eligible entity/banking |
-| Weeks 33–40 | Design validation | Reliability, lab reports, materials, software recovery and support readiness |
-| Weeks 41–48+ | Production validation | Conditional 500–1,000 units, measured yield, outgoing QC and release decision |
+| Stage | Required evidence |
+| --- | --- |
+| Concept and feasibility — current | Vendor-backed compute/BSP/model path, exact component variants, packaging stack-up and cost alternatives |
+| Bench proof | Continuous local voice → scoped tool → audible result; actual output, source links, latency and power traces |
+| Audio/calls | Real iPhone routing, full-duplex audio, AEC and immediate human takeover across the declared supported matrix |
+| Engineering validation | Custom carrier and enclosure; measured power, thermals, radio behavior, charging and fault recovery |
+| User pilot | Candidate users choose tasks; compare against phone/desktop workflows, observe repeated voluntary use and failures |
+| Crowdfunding readiness | Working prototype footage, quoted production cost, credible funding goal, eligible creator/entity and banking |
+| Design/production validation | Repeatable assembly, validated test fixtures, component availability, yield and final compliance evidence |
+| Shipping and service | Quality release, logistics, support, repair path and funded obligations |
 
-## Open decisions
+Planning quantities in briefs are quotation scenarios, not purchase orders. Pilot acceptance criteria must be frozen before enrollment. Price, unit margin, supplier minimums and dates require actual quotes and measured work.
 
-- QCS8550 Linux BSP and supported local inference path.
-- Duplex HFP/PCM bridge and iPhone call-state behavior.
-- Real battery dimensions/capacity and thermal stack.
-- Low-power wake system; no continuous full-speed inference assumption.
-- Companion adapters and least-privilege permissions per target OS.
-- Assembler selection after comparable quotes and technical review.
-- Price, round size, first markets, final certification scope and shipping date.
+Immediate priorities: vendor BSP and small-model runtime evaluation; call-audio feasibility; battery/thermal duty cycle; first user interviews. Calls may be deferred independently if the core local computer experience proves useful sooner.
 
-Use GitHub issues for technical discussion. Please send proposals, investment messages and personal contact details through the [private inquiry form](https://mob-agent-network.vabbyshabbyy.chatgpt.site/#join).
+[Detailed plan](https://mob-agent-network.vabbyshabbyy.chatgpt.site/campaign) · [Engineering](https://mob-agent-network.vabbyshabbyy.chatgpt.site/engineering)
