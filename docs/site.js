@@ -71,9 +71,9 @@
 
     const observer = new IntersectionObserver(
       ([entry]) => {
-        header.classList.toggle("is-solid", !entry.isIntersecting);
+        header.classList.toggle("is-solid", entry.intersectionRatio < 0.42);
       },
-      { threshold: 0.12 }
+      { threshold: [0, 0.2, 0.42, 0.65, 1] }
     );
     observer.observe(hero);
   };
