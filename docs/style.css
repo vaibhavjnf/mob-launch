@@ -178,26 +178,25 @@ header.is-solid .pill {
 .hero-canvas {
   position: relative;
   min-height: inherit;
-  display: grid;
-  align-items: center;
 }
 
 .hero-orbit {
   position: absolute;
-  right: -8%;
-  top: 8%;
-  width: min(72vw, 980px);
+  right: -12%;
+  top: 2%;
+  width: min(78vw, 1100px);
   height: auto;
-  opacity: 0.55;
+  opacity: 0.4;
   pointer-events: none;
   z-index: 0;
 }
 
 .hero-product {
   position: absolute;
-  right: -11%;
-  top: 6%;
-  width: min(60vw, 860px);
+  right: -8%;
+  top: 50%;
+  transform: translateY(-48%);
+  width: min(64vw, 920px);
   margin: 0;
   z-index: 2;
   pointer-events: none;
@@ -205,12 +204,15 @@ header.is-solid .pill {
 
 .hero-product .object {
   width: 100%;
+  mask-image: radial-gradient(ellipse 86% 92% at 62% 48%, #000 54%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse 86% 92% at 62% 48%, #000 54%, transparent 80%);
 }
 
 .hero-copy {
   position: relative;
-  max-width: min(920px, 68vw);
-  padding: 108px 6% 120px;
+  width: min(58vw, 760px);
+  max-width: none;
+  padding: 120px 6% 140px;
 }
 
 .hero-copy .eyebrow,
@@ -244,7 +246,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: clamp(56px, 6.8vw, 104px);
+  font-size: clamp(52px, 5.8vw, 96px);
   letter-spacing: -0.07em;
   line-height: 0.94;
   position: relative;
@@ -260,6 +262,12 @@ h2 span {
 h1 .interlock {
   position: relative;
   z-index: 1;
+}
+
+@media (min-width: 1100px) {
+  h1 .interlock {
+    white-space: nowrap;
+  }
 }
 
 h2 {
@@ -343,7 +351,7 @@ figcaption,
   inset: 0;
   pointer-events: none;
   z-index: 6;
-  opacity: 0.036;
+  opacity: 0.04;
   mix-blend-mode: overlay;
   background-image: url("assets/cinematic/film-grain.svg");
   background-size: 180px 180px;
@@ -591,6 +599,17 @@ html[data-motion="on"] [data-chapter].is-away {
   100% { transform: translate(1%, -1%); }
 }
 
+@media (min-width: 1200px) {
+  .hero-product {
+    right: -2%;
+    width: min(66vw, 1040px);
+  }
+
+  .hero-copy {
+    width: min(52vw, 740px);
+  }
+}
+
 @media (max-width: 1100px) {
   .motion-toggle [data-motion-label] { display: none; }
 }
@@ -613,17 +632,19 @@ html[data-motion="on"] [data-chapter].is-away {
   .hero-canvas {
     display: flex;
     flex-direction: column;
-    padding: 28px 0 56px;
+    padding: 12px 0 56px;
   }
 
   .hero-copy {
+    order: 1;
     padding: 36px 25px 12px;
     text-align: center;
+    width: auto;
     max-width: none;
   }
 
   .hero h1 {
-    font-size: 58px;
+    font-size: 52px;
     max-width: none;
   }
 
@@ -632,20 +653,26 @@ html[data-motion="on"] [data-chapter].is-away {
   .actions { justify-content: center; gap: 20px; }
 
   .hero-orbit {
-    width: 140%;
-    right: -20%;
-    top: 38%;
+    display: none;
   }
 
   .hero-product {
     position: relative;
+    order: 2;
     right: auto;
     top: auto;
+    transform: none;
     width: min(100%, 520px);
     margin: 8px auto 0;
   }
 
+  .hero-product .object {
+    mask-image: radial-gradient(ellipse 72% 78% at 50% 48%, #000 42%, transparent 78%);
+    -webkit-mask-image: radial-gradient(ellipse 72% 78% at 50% 48%, #000 42%, transparent 78%);
+  }
+
   .hero-caption {
+    order: 3;
     position: static;
     text-align: center;
     padding: 8px 25px 0;
